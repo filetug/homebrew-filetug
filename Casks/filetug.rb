@@ -2,25 +2,25 @@
 cask "filetug" do
   binary "filetug", target: "ft"
 
-  version "0.2.0"
+  version "0.2.1"
 
   on_macos do
     on_arm do
-      sha256 "41f012b403fe67eb4a5f2842311a372a6ffb04d6a0c0d5d330ab09dc6e8209d3"
+      sha256 "402a102444de16620d3a49a6abc5abfab73ad310f867d25fd930844662f0f08b"
       url "https://github.com/filetug/filetug/releases/download/v#{version}/filetug_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "b1abed288c8bf30d7133249d5bc490947cd5830b8d0affc36e64e2e1b16191fc"
+      sha256 "6e204c33a76add57e95528e58ce834e8347b4ed211b4003ccaa7d8e6e2b93671"
       url "https://github.com/filetug/filetug/releases/download/v#{version}/filetug_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "aa9e322ecd334a9358dfefdd1e3f920ca02e1f6314a2a5d87fdbfb6190593373"
+      sha256 "221e04753128cb7ae20c9ac6975ad457c893e861a2f84adb8b085dc82749b7ee"
       url "https://github.com/filetug/filetug/releases/download/v#{version}/filetug_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "193b37b795cf6084f74fd5344350f1440454dbd4b500214a6334b51e073fca67"
+      sha256 "2b79ab51c2853151c7fa83ab5a479b787bd659456099a8aec70f3179047d2850"
       url "https://github.com/filetug/filetug/releases/download/v#{version}/filetug_#{version}_linux_amd64.tar.gz"
     end
   end
